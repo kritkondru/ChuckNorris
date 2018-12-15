@@ -1,0 +1,29 @@
+<ion-header >
+    <ion-toolbar >
+      <ion-title id="title">
+      <p id="p3"> Facts </p>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content
+          pullingIcon="arrow-dropdown"
+          pullingText="Pull to refresh"
+          refreshingSpinner="circles"
+          refreshingText="Refreshing...">
+        </ion-refresher-content>
+      </ion-refresher>
+  <div id="norrisdiv">
+    <ion-card>
+     <ion-img src="https://i.ytimg.com/vi/5_RUut1px3Q/maxresdefault.jpg"></ion-img>
+    </ion-card>
+  </div>
+         <ion-item >{{fservice.myData.value}}</ion-item> 
+  
+    <p id="pp">Pull down page to refresh and display new fact</p>
+    </ion-content>
+    
+         
+

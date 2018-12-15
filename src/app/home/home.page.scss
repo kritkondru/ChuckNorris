@@ -1,0 +1,44 @@
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#slidediv{
+    background-color: black;
+}
+#h1{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1:hover{
+    color :white;
+    transition:0.7s all;
+}
+
+#maindiv{
+    background:var(--ion-bthover-color) ;
+}
+
+#saveButton{
+    background:var(--ion-h1-color);
+    }
+    #saveButton:hover{
+        background:blue;
+        transition:2s all;
+    }
+
+    #p2{
+        color:red;
+    }
+
+    #title{
+        background: var(--ion-h1-color);
+        
+    }
+    #p3{
+     font-family:'Courier New', Courier, monospace; 
+    }
+    
